@@ -1,0 +1,17 @@
+{
+	"name": "project_environment",
+	"dependencies": [
+		"python=3.6.2",
+		{
+			"pip": [
+				"tqdm",
+				"azureml-defaults",
+				"torch==1.1",
+				"torchvision==0.2.1"
+			]
+		}
+	],
+	"channels": [
+		"conda-forge"
+	]
+}
